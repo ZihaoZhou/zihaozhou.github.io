@@ -1,4 +1,6 @@
 .column {
+  font-family: sans-serif;
+  font-weight: bold;
   font-size: 40px;
   float: left;
   width: 33.33%;
@@ -6,6 +8,8 @@
 }
 
 .semicolumn {
+  font-family: sans-serif;
+  font-weight: bold;
   font-size: 40px;
   float: left;
   width: 50%;
