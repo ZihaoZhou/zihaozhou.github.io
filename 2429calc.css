@@ -1,10 +1,12 @@
 .column {
+  font-size: 40px;
   float: left;
   width: 33.33%;
   text-align: center;
 }
 
 .semicolumn {
+  font-size: 40px;
   float: left;
   width: 50%;
   text-align: center;
@@ -36,72 +38,61 @@ img {
 }
 
 #container {
-  height: 525px;
-  width: 360px;
-  margin: 100px auto;
+  height: 1050px;
+  width: 800px;
+  margin: 200px auto;
   background: #f7f7f7;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
 }
 
 h1 {
   background: #1F030C;
   color: white;
   margin: 0;
-  padding: 10px 100px;
+  padding: 20px 200px;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 36px;
   font-weight: normal;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 
 p {
-  padding-left: 20px;
+  padding-left: 40px;
 }
   
 input[type="text"] {
-  width=90px;
-  font-size: 14px;
-  /*color: #2980b9;*/
-  color: #red;
+  width: 90px;
+  font-size: 28px;
+  color: #2980b9;
   background-color: #f7f7f7;
   width: 60%;
-  padding: 5px 5px 8px 8px;
+  padding: 10px 10px 16px 16px;
 }
 
 input[type="text"]:focus {
   background: #fff;
-  border: 3px solid #2980b9;
-  outline: 
-
-  input {
-    padding-left: 20px;
-  }none;
+  border: 6px solid #2980b9;
+  outline: none;
 }
 
   .dollarSign {
     display: inline;
   }
   
-  #serviceQual {
-    padding: 13px 13px 20px 20px;
-    margin-left: 20px;
-    font-size: 25px;
-  }
-  
 button {
   text-transform: uppercase;
   font-weight: bold;
   display: block;
-  margin: 20px auto;
+  margin: 40px auto;
   background: #AD133A;
-  border-radius: 5px;
-  width: 200px;
-  height: 40px;
-  font-size: 17px;
+  border-radius: 10px;
+  width: 400px;
+  height: 80px;
+  font-size: 34px;
   color: white;
 }
 
@@ -112,17 +103,17 @@ button:hover {
 
 button:active {
   position: relative;
-  top: 1px;
+  top: 2px;
 }
 
 #result {
   font-family: sans-serif;
-  font-size: 20px;
-  margin-top: 20px;
+  font-size: 40px;
+  margin-top: 40px;
   text-align: center;
 }
 
 #result sup {
-  font-size: 15px;
-  top: -18px;
+  font-size: 30px;
+  top: -36px;
 }
