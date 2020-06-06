@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+#emptyline {
+  margin-top: 2vh;
+}
+
 .semicolumn {
   font-family: sans-serif;
   font-weight: bold;
@@ -42,6 +46,7 @@ img {
 }
 
 #container {
+  position: relative;
   height: 84vh;
   width: 44vh;
   padding: 0 1vh 0 1vh;
@@ -66,8 +71,15 @@ h1 {
   border-top-right-radius: 3.2vh;
 }
 
-#emptyline {
-  margin-top: 5vh;
+#bottom {
+  background: #DDDDDD;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 3.2vh;
+  border-bottom-right-radius: 3.2vh;
+  position: absolute;
+  bottom: 0;
+  width: 40vh;
 }
   
 input[type="text"] {
@@ -116,11 +128,52 @@ button:active {
 #result {
   font-family: sans-serif;
   font-size: 2.2vh;
-  margin-top: 2.2vh;
+  margin-top: -1vh;
   text-align: center;
 }
 
 #result sup {
   font-size: 1.8vh;
   top: -1.8vh;
+}
+
+#food {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 15vh
+}
+
+@font-face {
+  font-family: poppins;
+  src:url("Poppins-BlackItalic.ttf");
+}
+
+h2 {
+  font-family: sans-serif;
+  color: #333333;
+  font-family: poppins;
+  font-size: 5vh;
+  font-weight: normal;
+  border-top-left-radius: 3.2vh;
+  border-top-right-radius: 3.2vh;
+  margin-top: 50vh;
+  text-align: center;
+}
+
+#refresh {
+  width: 4vh;
+  height: 4vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 62vh
 }

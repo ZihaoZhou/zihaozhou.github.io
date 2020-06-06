@@ -45,6 +45,7 @@ function calculateSplit() {
   Nanshen = Nanshen.toFixed(2);
 
   document.getElementById("result").style.display = "block";
+  document.getElementById("reset").style.display = "block";
   document.getElementById("calculate").style.display = "none";
 
   document.getElementById("ZihaoResult").innerHTML = Zihao;
@@ -54,6 +55,8 @@ function calculateSplit() {
   
 //Hide the tip amount on load
 document.getElementById("result").style.display = "none";
+//Hide the reset button on load
+document.getElementById("reset").style.display = "none";
 
 //click to call function
 document.getElementById("calculate").onclick = function() {
